@@ -43,6 +43,7 @@ To get started with SLRS, follow these steps:
    ```sh
    git clone https://github.com/ViratSrivastava/SLRS.git
    cd SLRS
+   pip install tensorflow gym blender bpy stable-baselines3
    ```
 
 2. Install the necessary dependencies for each module:
