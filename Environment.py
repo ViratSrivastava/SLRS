@@ -49,7 +49,13 @@ class RocketLandingEnv(gym.Env):
         
         # Termination conditions: either successful landing or crash
         done = new_z <= 0  # Rocket has landed or crashed
+        # Sensor data integration
+        imu_data = self.get_acceleration()
+        lidar_distance = self.get_lidar_distance()
+         gps_data = self.get_gps()
         
+        # Append sensor data to observation
+         observation = np.concatenate([self.state, imu_data, [lidar_distance], gps_data])
         return self.state, reward, done, {}
 
     def render(self, mode='human'):
