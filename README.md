@@ -1,7 +1,7 @@
-<img src="https://photos.app.goo.gl/UfSYBYDGSafLFeiL8" alt="banner" />
+
+![warning banner](https://github.com/user-attachments/assets/0e471029-b38f-4731-89aa-9c7b27124d67)
 
 ---
-
 # Self-Landing Rocket System (SLRS)
 
 Welcome to the Self-Landing Rocket System (SLRS) repository! This collection contains various software modules implemented in C++, Python, and MATLAB designed for the development of a self-landing rocket.
